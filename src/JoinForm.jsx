@@ -12,7 +12,7 @@ function JoinForm() {
   const handleJoin = async (e) => {
     e.preventDefault();
     const roomName = 'my-room';
-    const response = await fetch('https://e293590fee9c.ngrok-free.app/api/token', {
+    const response = await fetch('https://livekittoken-lh8k.onrender.com/api/token', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({ roomName: roomName, identity: name }),

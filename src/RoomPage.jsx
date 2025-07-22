@@ -33,7 +33,7 @@ function RoomPage() {
   return (
     <LiveKitRoom
       token={token}
-      serverUrl="wss://467f096bfc03.ngrok-free.app " // replace with your actual server if needed
+      serverUrl="https://kivekitbinary3-production.up.railway.app" // replace with your actual server if needed
       connect
       data-lk-theme="default"
       style={{
